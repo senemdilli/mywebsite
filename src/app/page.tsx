@@ -18,9 +18,9 @@ export default function Home() {
             className="space-y-4"
           >
             <h1 className="text-4xl md:text-6xl text-neutral-700 font-instrument-serif">
-              I'm <span className="italic">Senem</span> <img src="senem.jpg" alt="Senem" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" />,
+              I'm <span className="italic">Senem Dilli</span> <img src="senem.jpg" alt="Senem" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" />,
               <br />
-              <img src="comp.png" alt="Computer" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" /> a Frontend Developer <span className="italic">Dilli</span>
+              <img src="comp.png" alt="Computer" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" /> a Frontend Developer <span className="italic"></span>
               <br />
               based in <span className="italic">Istanbul</span> <img src="istanbul.png" alt="Istanbul" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" />
             </h1>
