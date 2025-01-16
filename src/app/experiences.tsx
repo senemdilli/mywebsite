@@ -1,54 +1,5 @@
 'use client'
-
-const experiences = [
-  {
-    icon: "✦",
-    role: "Frontend Developer",
-    company: "Accenture",
-    location: "Istanbul, Turkey",
-    period: "Aug 2024 → Now",
-    /* details: [
-      "Solution development for a German electric infrastructure project, leveraging a low-code platform which uses SQL, PHP, and SAP Open UI5."
-    ] */
-  },
-  {
-    icon: "✦",
-    role: "Product Intern - Drive Up",
-    company: "Mercedes-Benz Financial Services",
-    location: "Istanbul, Turkey",
-    period: "Aug 2023 → Jun 2024",
-    /* details: [
-      "Collaborated with cross-functional teams to develop and test new features for Online Sales",
-      "Worked with diverse business departments to identify and prioritize product requirements",
-      "Managed test scenarios and ensured product quality through thorough testing"
-    ] */
-  },
-  {
-    icon: "✦",
-    role: "Product Development Intern",
-    company: "anny GmbH",
-    location: "Cologne, Germany",
-    period: "Jul 2022 → Sep 2022",
-    /* details: [
-      "Completed Erasmus+ Internship at anny GmbH in Germany",
-      "Improved new feature implementations with wireframes and research",
-      "Shaped the most effective ways to add new features",
-      "Gained valuable experience in Product Management"
-    ] */
-  },
-  {
-    icon: "✦",
-    role: "Software Development Long Term Intern",
-    company: "Alternatif Bank",
-    location: "Istanbul, Turkey",
-    period: "Aug 2021 → Jul 2022",
-    /* details: [
-      "Developed and maintained banking applications",
-      "Worked with core banking systems",
-      "Implemented new features and improvements"
-    ] */
-  }
-]
+import { experiences } from './experiences/data'
 
 export default function TimelineSection() {
   return (

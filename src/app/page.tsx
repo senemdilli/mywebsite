@@ -8,10 +8,10 @@ import Socials from "./socials";
 
 export default function Home() {
   return (
-    <div>
-      <div className="min-h-screen px-4 py-8 md:px-8 lg:px-16 bg-stone-100">
+    <div className="bg-stone-100">
+      <div className="h-screen flex items-center px-4 md:px-8 lg:px-16 bg-stone-100">
         {/* Hero Section */}
-        <section className="max-w-4xl mx-auto mt-16 space-y-8">
+        <section className="max-w-4xl mx-auto space-y-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -37,22 +37,66 @@ export default function Home() {
             transition={{ delay: 0.3 }}
           >
             <Link
-              href="#experiences"
+              href="#navigation"
               className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-colors"
             > 
-              Keep scrolling for more →
+              Keep scrolling for more :)
             </Link>
           </motion.div>
 
           {/* Social Links */}
           <Socials color="neutral-700" colorHover="neutral-900" />
-
         </section>
       </div>
-      <div id="experiences">
+
+      <div id="navigation" className="flex flex-col justify-center items-center gap-8 py-6 bg-stone-100">
+        <motion.span 
+          initial={{ opacity: 0, rotate: 0 }}
+          animate={{ opacity: 1, rotate: 360 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
+          className="text-4xl text-neutral-700"
+        >
+          ✺
+        </motion.span>
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="flex justify-center items-center gap-6"
+        >
+          <Link
+            href="/experiences"
+            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+          > 
+            Experience
+          </Link>
+          <Link
+            href="/projects"
+            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+          > 
+            Projects
+          </Link>
+          <Link
+            href="#contact"
+            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+          > 
+            Contact
+          </Link>
+          <Link
+            href="/aboutme"
+            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+          > 
+            About Me
+          </Link>
+        </motion.div>
+      </div>
+
+      <div>
         <Experiences />
       </div>
-      <Contact />
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
