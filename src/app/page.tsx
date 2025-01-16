@@ -29,6 +29,7 @@ export default function Home() {
             <p className="text-md text-neutral-600 dark:text-neutral-700 max-w-2xl">
             a self-motivated and proactive individual. I thrive in dynamic work environments where I can learn and experience new things. With experience in various fields, I am eager to contribute to projects that allow me to grow my skills and knowledge, and achieve successful outcomes.
             </p>
+            <p className="text-md text-neutral-600">Keep scrolling for more :)</p>
           </motion.div>
 
           <motion.div
@@ -36,12 +37,6 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <Link
-              href="#navigation"
-              className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-colors"
-            > 
-              Keep scrolling for more :)
-            </Link>
           </motion.div>
 
           {/* Social Links */}
