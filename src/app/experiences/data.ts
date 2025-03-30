@@ -6,9 +6,10 @@ const experiences = [
       location: "Hybrid | Istanbul, Turkey",
       period: "Aug 2024 → Now",
       details: [
-        "Solution development for a German electric infrastructure project, leveraging a low-code platform which uses SQL, PHP, and SAP Open UI5."
+        "Solution development for a German electric infrastructure project, leveraging a low-code platform which uses SQL, PHP, and SAP Open UI5.",
+        "Developed a comprehensive dashboard application using React, Next.js, Tailwind CSS, ChatGPT API, and Firebase, creating an integrated and responsive web solution."
       ],
-      technologies: ["SQL", "PHP", "SAP UI5", "JavaScript"],
+      technologies: ["SQL", "Low-code", "React", "Next.js", "Tailwind CSS", "ChatGPT API", "Firebase"],
       type: "Full-time"
     },
     {
@@ -58,7 +59,18 @@ const experiences = [
   const education = [
     {
       icon: "✧",
-      degree: "Bachelor of Science in Computer Engineering (Informatik)",
+      degree: "Master of Science in Computer Science (Informatik)",
+      school: "Technical University of Berlin",
+      location: "Berlin, Germany",
+      period: "2025 → Present",
+      details: [
+        "-"
+      ],
+      activities: ["-"]
+    },
+    {
+      icon: "✧",
+      degree: "Bachelor of Science in Computer Science Engineering",
       school: "Turkish-German University",
       location: "Istanbul, Turkey",
       period: "2019 → 2024",
@@ -68,7 +80,7 @@ const experiences = [
         "Thesis Project: Support system for early detection of Alzheimer's disease using deep neural networks"
       ],
       activities: ["Google Developer Student Club"]
-    },
+    }
   ]
 
   const volunteer = [

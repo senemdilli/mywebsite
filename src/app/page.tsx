@@ -57,29 +57,29 @@ export default function Home() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.5 }}
-          className="flex justify-center items-center gap-6"
+          className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 w-full px-4 sm:px-0"
         >
           <Link
             href="/experiences"
-            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+            className="w-full sm:w-auto text-center inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
           > 
             Experience
           </Link>
           <Link
             href="/projects"
-            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+            className="w-full sm:w-auto text-center inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
           > 
             Projects
           </Link>
           <Link
             href="#contact"
-            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+            className="w-full sm:w-auto text-center inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
           > 
             Contact
           </Link>
           <Link
             href="/aboutme"
-            className="inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
+            className="w-full sm:w-auto text-center inline-block px-6 py-3 text-sm font-medium text-neutral-100 bg-neutral-700 rounded-full transition-all hover:bg-neutral-800 hover:scale-105"
           > 
             About Me
           </Link>
