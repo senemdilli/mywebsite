@@ -9,7 +9,7 @@ const aboutMe = [
         emoji: "📷",
         title: "Photography",
         description: "I love shooting with my analog camera—my favorite part is not knowing how the photos will turn out until they’re developed. That surprise makes each one feel more beautiful and special. 🎞️",
-        photo: "/aboutme/analog-photography.jpg"
+        photo: "/aboutme/analog-photography.png"
     },
     {
         emoji: "💿",

@@ -24,14 +24,15 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${instrumentSerif.variable} antialiased`}>{children}</body>
+      <head>
+        <link rel="icon" href="/senem.jpg" />
+      </head>
+      <body className={`${inter.className} ${instrumentSerif.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   )
 }
