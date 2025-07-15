@@ -1,10 +1,22 @@
 const experiences = [
+  {
+    icon: "✸",
+    role: "MSc Computer Science",
+    company: "Technische Universität Berlin",
+    location: "Berlin, Germany",
+    period: "April 2025 → Present",
+    details: [
+      "Following Data Science and Engineering Track",
+    ],
+    technologies: [],
+    type: "Student"
+  },
     {
       icon: "✦",
       role: "Frontend Developer",
       company: "Accenture",
       location: "Hybrid | Istanbul, Turkey",
-      period: "Aug 2024 → Now",
+      period: "Aug 2024 → April 2025",
       details: [
         "Solution development for a German electric infrastructure project, leveraging a low-code platform which uses SQL, PHP, and SAP Open UI5.",
         "Developed a comprehensive dashboard application using React, Next.js, Tailwind CSS, ChatGPT API, and Firebase, creating an integrated and responsive web solution."
@@ -64,7 +76,7 @@ const experiences = [
       location: "Berlin, Germany",
       period: "2025 → Present",
       details: [
-        "-"
+        "Following Data Science and Engineering Track"
       ],
       activities: ["-"]
     },

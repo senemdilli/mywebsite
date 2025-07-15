@@ -23,7 +23,7 @@ export default function Home() {
               <br />
               <img src="comp.png" alt="Computer" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" /> a Frontend Developer <span className="italic"></span>
               <br />
-              based in <span className="italic">Istanbul</span> <img src="istanbul.png" alt="Istanbul" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" />
+              based in <span className="italic">Berlin</span> <img src="berlin.png" alt="Berlin" className="inline-block w-10 h-10 rounded-full ml-1 mb-2" /> now!
             </h1>
             
             <p className="text-md text-neutral-600 dark:text-neutral-700 max-w-2xl">
